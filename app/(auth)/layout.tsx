@@ -9,9 +9,9 @@ const AuthLayout = ({
   children: React.ReactNode;
 }) => {
   return ( 
-    <div className="h-full">
+    <div className="h-full bg-[#111827]">
       <LandingNavbar />
-      <main className="h-full bg-[#111827] flex items-center justify-center">
+      <main className="h-full flex items-center justify-center">
         {children}
       </main>
       <Footer />
